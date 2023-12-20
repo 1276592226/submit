@@ -1,0 +1,16 @@
+重现结果的环境准备步骤（ Windows 11 确保连接Internet）：
+1、安装anaconda python 最好 3.11.6
+2、解压ZIP文件到文件夹，比如 \temp\data_analysis_transbigdata。如果文件夹不同，以后的命令相应修改就好
+2、参照README.md，完成以下步骤：
+2-1、以管理员身份打开Anaconda Prompt 输入以下命令
+2-2、cd \temp\data_analysis_transbigdata
+2-2、conda create -n transbigdata
+2-3、conda activate transbigdata
+2-4、conda install -c conda-forge jupyter_contrib_nbextensions
+2-5、conda install -c conda-forge jupyter_nbextensions_configurator
+2-6、pip install transbigdata keplergl scikit-learn statsmodels folium
+2-7、jupyter notebook
+3、在打开的Jupyter Notebook里面，打开文件 bike_data_process_baidu.ipynb
+4、运行所有的Cell，可以看到运行的结果
+5、有两个显示交通轨迹的数据可视化，被python语句tbd.visualization_trip驱动。需要点开Run按钮，可以看到动画。具体操作，可以看可视化下面的markdown Cell的指示
+6、由tbd.visualization_data / tbd.visualization_od / tbd.visualization_trip 驱动 的可视化，是可以通过放大来drill down

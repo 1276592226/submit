@@ -1,0 +1,23 @@
+包含文件：
+1、文件夹： data_analysis_transbigdata
+2、文件：
+2-1： bike_data_process_baidu.ipynb
+2-2： utilization.py
+2-3：  README.md  (描述如何搭建环境）
+2-4：子文件夹：data
+2-4-1：子文件夹： data/map_path （可以为空）
+2-4-2：data/config.json  (包括百度地图和mapbox的key）
+2-4-3：data/anaconda_prompt.jpg  （markdown cell 使用）
+2-4-4：data/fdu_bike.png  （markdown cell 使用）
+2-4-5：data/freq_user_day_1.jpg （markdown cell 使用）
+2-4-6：data/freq_user_day_2.jpg （markdown cell 使用）
+2-4-7：data/freq_user_night_1.jpg （markdown cell 使用）
+2-4-8：data/freq_user_night_2.jpg （markdown cell 使用）
+2-4-9：data/freq_user_night_3.jpg （markdown cell 使用）
+2-4-10: data/create_layer_in_visulation.jpg （markdown cell 使用）
+2-4-11：data/Nbextensions.png （markdown cell 使用）
+2-4-12：data/Settings_in_Nbextension.jpg （markdown cell 使用）
+2-4-13：data/shanghai_Weather.csv （上海的天气，用来分析共享单车使用量）
+2-4-14：data/shanghai.geojson  （上海各区边界）
+2-4-15：data/trip_config.json   （程序中动画表示卡车路线的时候，这个json用来添加request和supply的点，从而实现卡车从Supply点中穿过的效果）
+2-4-16：data/上海某共享单车数据集.csv  （比赛组委会给的数据）
